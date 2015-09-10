@@ -4,19 +4,19 @@
 #hlogo a {
 	background: transparent url('http://i.imgur.com/MqFMOAw.png') no-repeat left top;
 	width: 400px;
-    margin-top: 5px;
-    height: 164px;
-    background-size: 87% 50%;
+	margin-top: 5px;
+	height: 164px;
+	background-size: 87% 50%;
 	font-size: 0;
 }
 .nav a {
 	color: #FFFFFF;
 }
 #header {
-    height: 165px;
+	height: 165px;
 }
 body {
-    background-color: #5A5A5A;
+	background-color: #5A5A5A;
 }
 a {
 	color: #FFF;
@@ -36,9 +36,9 @@ a {
 	background-color: #404040;
 }
 #footer th {
-    color: #FFF;
+	color: #FFF;
 }
 .footerwrap {
 	padding: 15px 10px 70px 10px;
-	background: rgba(0,0,0,0) url('http://i.imgur.com/7NJN9g7.png') no-repeat center bottom
+	background: rgba(0,0,0,0) url('http://i.imgur.com/7NJN9g7.png') no-repeat center bottom;
 }
