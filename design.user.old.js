@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         CodeReview dark theme
+// @namespace    https://github.com/The-Quill/Code-Review-Design
+// @version      0.1
+// @description  A new Code Review theme.
+// @author       Quill
+// @match        http://codereview.stackexchange.com
+// @grant        none
+// ==/UserScript==
+
 var styles_to_apply = {
 	'#hlogo': {
 		'margin': '0px 0 0 0'
