@@ -10,23 +10,30 @@ var styles_to_apply = {
     	, 'background-size': '87% 50%'
 		, 'font-size': '0'
 	},
-	'.nav a': {
-		'color': '#FFFFFF'
-	},
 	'#header': {
 		'height': '165px'
+	},
+	'.nav li.youarehere a' :{
+    	  'font-weight': '700'
+    	, 'color': '#FF6700'
+	},
+	'#tabs a.youarehere, .tabs a.youarehere, #tabs a:hover, .tabs a:hover': {
+    	  'color': '#FF6700'
+    	, 'border-bottom': '2px solid #FF6700'
+	},
+	'#tabs a.youarehere, .tabs a.youarehere': {
+    	'font-weight': 'bold'
 	},
 	'body': {
 		'background-color': '#5A5A5A'
 	},
-	'a': {
-    	'color': '#FFF'
+	'.nav li:not(.youarehere) a, .footer a, #footer th, #footer-sites a, #copyright a, .top-footer-links a': {
+		'color': '#FFF'
 	},
-	'#copyright': {
-		  'text-align': 'left'
-		, 'color': '#FFF'
+	'.youarehere': {
+		'color': '#FF6700'
 	},
-	'svnrev': {
+	'#copyright, #svnrev': {
 		  'text-align': 'left'
 		, 'color': '#FFF'
 	},
@@ -35,9 +42,6 @@ var styles_to_apply = {
 	},
 	'#footer': {
 		'background-color': '#404040'
-	},
-	'#footer th': {
-    	'color': '#FFF'
 	},
 	'.footerwrap': {
 		  'padding': '15px 10px 70px 10px'
