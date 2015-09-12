@@ -52,6 +52,8 @@ body {
 #footer,
 #footer th,
 #footer-sites a,
-.top-footer-links a {
+.top-footer-links a,
+#footer #footer-sites a,
+#footer #footer-sites a:visited {
     color: #FFF;
 }
