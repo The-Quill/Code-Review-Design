@@ -46,9 +46,9 @@ body {
 	text-align: left;
 	color: #FFF;
 }
+.summarycount + p :after {
+	content: "Zombies";
+}
 .summarycount + p {
 	display: none;
-}
-.summarycount + p :after {
-	content: 'Zombies';
 }
