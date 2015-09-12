@@ -36,7 +36,7 @@ body {
 #tabs a.youarehere, .tabs a.youarehere {
 	font-weight: bold;
 }
-.nav li:not(.youarehere) a, .footer a, #footer th, #footer-sites > table > tbody > tr > td > ol > li > a, #copyright a, .top-footer-links a {
+.nav li:not(.youarehere) a, .footer a, #footer th, #footer-sites a, #copyright a, .top-footer-links a {
 	color: #FFF;
 }
 .youarehere {
