@@ -42,15 +42,16 @@ body {
 , .tabs a.youarehere {
 	font-weight: bold;
 }
-#copyright, #svnrev {
+  #copyright
+, #svnrev {
 	text-align: left;
 	color: #FFF;
 }
   .nav li:not(.youarehere) a
 , .footer a
+, #footer
 , #footer th
 , #footer-sites a
-, #copyright a
 , .top-footer-links a {
 	color: #FFF;
 }
