@@ -27,22 +27,30 @@ body {
 }
 .nav li.youarehere a {
 	font-weight: 700;
+}
+.youarehere {
 	color: #FF6700;
 }
-#tabs a.youarehere, .tabs a.youarehere, #tabs a:hover, .tabs a:hover {
+  #tabs a.youarehere
+, .tabs a.youarehere
+, #tabs a:hover
+, .tabs a:hover {
 	color: #FF6700;
 	border-bottom: 2px solid #FF6700;
 }
-#tabs a.youarehere, .tabs a.youarehere {
+  #tabs a.youarehere
+, .tabs a.youarehere {
 	font-weight: bold;
-}
-.nav li:not(.youarehere) a, .footer a, #footer th, #footer-sites a, #copyright a, .top-footer-links a {
-	color: #FFF;
-}
-.youarehere {
-	color: #FF6700
 }
 #copyright, #svnrev {
 	text-align: left;
+	color: #FFF;
+}
+  .nav li:not(.youarehere) a
+, .footer a
+, #footer th
+, #footer-sites a
+, #copyright a
+, .top-footer-links a {
 	color: #FFF;
 }
