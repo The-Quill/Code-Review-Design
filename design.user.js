@@ -22,4 +22,4 @@ GM_addStyle(
 		: 'main') + '_skin')
 );
 
-GM_addStyle(GM_getResourceText(theme));
+GM_addStyle(GM_getResourceText('theme'));
