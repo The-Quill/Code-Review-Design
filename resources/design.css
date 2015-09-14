@@ -21,7 +21,7 @@ body {
 }
 .footerwrap {
     padding: 15px 10px 70px 10px;
-    background: rgba(0, 0, 0, 0) url(http://i.stack.imgur.com/FeoGy.png) no-repeat center bottom;
+    background: rgba(0, 0, 0, 0) url(https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/resources/images/footer.png) no-repeat center bottom;
 }
 .nav li.youarehere a {
     font-weight: 700;
