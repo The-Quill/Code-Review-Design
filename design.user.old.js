@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CodeReview dark theme
 // @namespace    https://github.com/The-Quill/Code-Review-Design
-// @version      0.1
+// @version      0.2
 // @description  A new Code Review theme.
 // @author       Quill
 // @match        http://codereview.stackexchange.com
