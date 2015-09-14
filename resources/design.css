@@ -21,7 +21,7 @@ body {
 }
 .footerwrap {
     padding: 15px 10px 70px 10px;
-    background: black url(https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/resources/images/footer.png) no-repeat center bottom;
+    background: rgb(0, 0, 0) url(https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/resources/images/footer.png) no-repeat center bottom;
 }
 #tabs a.youarehere,
 .tabs a.youarehere {

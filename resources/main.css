@@ -9,11 +9,11 @@
 .youarehere {
     color: #FF6700;
 }
-.nav li.youarehere a,
+#tabs a:hover,
+.tabs a:hover,
 #tabs a.youarehere,
 .tabs a.youarehere,
-#tabs a:hover,
-.tabs a:hover {
+.nav li.youarehere a {
     color: #FF6700;
     border-bottom: 2px solid #FF6700;
 }
