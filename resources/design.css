@@ -1,14 +1,6 @@
 #hlogo {
     margin: 0px 0 0 0;
 }
-#hlogo a {
-    background: transparent url(http://i.imgur.com/MqFMOAw.png) no-repeat left top;
-    width: 400px;
-    margin-top: 5px;
-    height: 164px;
-    background-size: 87% 50%;
-    font-size: 0;
-}
 #header {
     height: 165px;
 }
@@ -29,20 +21,10 @@ body {
 }
 .footerwrap {
     padding: 15px 10px 70px 10px;
-    background: rgba(0, 0, 0, 0) url(http://i.imgur.com/7NJN9g7.png) no-repeat center bottom;
+    background: rgba(0, 0, 0, 0) url(http://i.stack.imgur.com/FeoGy.png) no-repeat center bottom;
 }
 .nav li.youarehere a {
     font-weight: 700;
-}
-.youarehere {
-    color: #FF6700;
-}
-#tabs a.youarehere,
-.tabs a.youarehere,
-#tabs a:hover,
-.tabs a:hover {
-    color: #FF6700;
-    border-bottom: 2px solid #FF6700;
 }
 #tabs a.youarehere,
 .tabs a.youarehere {

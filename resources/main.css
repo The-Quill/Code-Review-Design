@@ -1,0 +1,18 @@
+#hlogo a {
+    background: transparent url(http://i.stack.imgur.com/JveGQ.png) no-repeat left top;
+    width: 400px;
+    margin-top: 5px;
+    height: 164px;
+    background-size: 87% 50%;
+    font-size: 0;
+}
+.youarehere {
+    color: #FF6700;
+}
+#tabs a.youarehere,
+.tabs a.youarehere,
+#tabs a:hover,
+.tabs a:hover {
+    color: #FF6700;
+    border-bottom: 2px solid #FF6700;
+}
