@@ -9,6 +9,7 @@
 .youarehere {
     color: black;
 }
+.nav li.youarehere a,
 #tabs a.youarehere,
 .tabs a.youarehere,
 #tabs a:hover,

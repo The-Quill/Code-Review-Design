@@ -1,11 +1,11 @@
+body {
+    background-color: #5A5A5A;
+}
 #hlogo {
     margin: 0px 0 0 0;
 }
 #header {
     height: 165px;
-}
-body {
-    background-color: #5A5A5A;
 }
 .container {
     box-shadow: #404040 0 120px 0 inset;
@@ -21,36 +21,35 @@ body {
 }
 .footerwrap {
     padding: 15px 10px 70px 10px;
-    background: rgba(0, 0, 0, 0) url(https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/resources/images/footer.png) no-repeat center bottom;
-}
-.nav li.youarehere a {
-    font-weight: 700;
+    background: black url(https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/resources/images/footer.png) no-repeat center bottom;
 }
 #tabs a.youarehere,
 .tabs a.youarehere {
     font-weight: bold;
 }
-#copyright,
+
 #svnrev,
+#copyright,
+#footer #svnrev,
 #footer #copyright,
-#footer #additional-notices,
-#footer #svnrev {
+#footer #additional-notices {
     text-align: left;
     color: #FFF;
 }
-.nav li:not(.youarehere) a,
-.footer a,
+
 #footer,
+.footer a,
 #footer th,
 #footer-sites a,
-.top-footer-links a,
-#footer #footer-sites a,
-#footer #footer-sites a:visited,
-#footer #copyright a,
-#footer #additional-notices a,
 #footer #svnrev a,
+.top-footer-links a,
+#footer #copyright a,
+#footer #footer-sites a,
+#footer #svnrev a:visited,
+.nav li:not(.youarehere) a,
 #footer #copyright a:visited,
-#footer #additional-notices a:visited,
-#footer #svnrev a:visited {
+#footer #additional-notices a,
+#footer #footer-sites a:visited,
+#footer #additional-notices a:visited {
     color: #FFF;
 }
