@@ -9,14 +9,16 @@
 // @match	*://meta.codereview.stackexchange.com/*
 // @grant	GM_addStyle
 // @grant	GM_getResourceText
-// @resource	dark_theme https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/design.css
-// @resource	meta_dark_theme https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/meta_design.css
+// @resource	theme https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/design.css
+// @resource	main_skin https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/main.css
+// @resource	meta_skin https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/meta.css
 // ==/UserScript==
 
-var style = (
-	window.location.href.indexOf('meta.codereview.stackexchange.com') !== -1 
-		? 'meta_'
-		: '')
-	+ 'dark_theme';
+GM_addStyle(
+	GM_getResourceText(
+		window.location.href.contains('://meta.codereview')
+		? 'meta'
+		: 'main')
+);
 
-GM_addStyle(GM_getResourceText(style));
+GM_addStyle(GM_getResourceText(theme));
