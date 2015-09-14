@@ -9,11 +9,12 @@
 .youarehere {
     color: black;
 }
-.nav li.youarehere a,
+#tabs a:hover,
+.tabs a:hover,
 #tabs a.youarehere,
 .tabs a.youarehere,
-#tabs a:hover,
-.tabs a:hover {
+.nav li.youarehere a,{
     color: black;
+    text-shadow: -.5px 0 #FFF, 0 .5px #FFF, .5px 0 #FFF, 0 -.5px #FFF;
     border-bottom: 2px solid black;
 }
