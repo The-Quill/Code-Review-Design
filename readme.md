@@ -18,7 +18,7 @@ This is Quill's Code Review design.
 
  - Tampermonkey or Greasemonkey
  - A browser supporting `.contains`
- 
+
 ##Future Improvements:
 
 It's lacking a few things:
