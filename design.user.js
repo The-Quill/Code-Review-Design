@@ -10,9 +10,9 @@
 // @match		*://meta.codereview.stackexchange.com/*
 // @grant		GM_addStyle
 // @grant		GM_getResourceText
-// @resource	theme 	  https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/resources/design.css
-// @resource	main_skin https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/resources/main.css
-// @resource	meta_skin https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/resources/meta.css
+// @resource	theme 	  https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/resources/min.design.css
+// @resource	main_skin https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/resources/min.main.css
+// @resource	meta_skin https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/resources/min.meta.css
 // ==/UserScript==
 
 GM_addStyle(GM_getResourceText('theme'));
