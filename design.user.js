@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		CodeReview dark theme
 // @namespace 	https://github.com/The-Quill/Code-Review-Design
-// @version		0.8
+// @version		1.0
 // @description	A new Code Review theme.
 // @author		Quill
 // @match		*://codereview.stackexchange.com
@@ -15,11 +15,12 @@
 // @resource	meta_skin https://raw.githubusercontent.com/The-Quill/Code-Review-Design/master/resources/meta.css
 // ==/UserScript==
 
+GM_addStyle(GM_getResourceText('theme'));
+
 GM_addStyle(
 	GM_getResourceText(
-		(window.location.href.contains('://meta.codereview')
+		[(window.location.href.contains('://meta.codereview')
 		? 'meta'
-		: 'main') + '_skin')
+		: 'main'),  '_skin'].join('')
+	)
 );
-
-GM_addStyle(GM_getResourceText('theme'));
