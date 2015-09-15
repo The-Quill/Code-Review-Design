@@ -11,9 +11,11 @@
 }
 #tabs a:hover,
 .tabs a:hover,
+.nav ul a:hover,
 #tabs a.youarehere,
 .tabs a.youarehere,
-.nav li.youarehere a,{
+.nav li.youarehere a,
+.nav ul .youarehere a {
     color: black;
     border-bottom: 2px solid black;
 }
